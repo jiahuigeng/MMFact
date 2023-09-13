@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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" # fill your openai api key
+openai.api_key = "" # fill your openai api key
 
 def chatgpt(user_input):
     response = openai.ChatCompletion.create(
